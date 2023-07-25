@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AimShootManager : MonoBehaviour
 {
-    [SerializeField] private Camera gunCamera;
+    [SerializeField] private Camera gunCamer;
     [SerializeField] private Camera fullCamera;
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform spotSpawn;
